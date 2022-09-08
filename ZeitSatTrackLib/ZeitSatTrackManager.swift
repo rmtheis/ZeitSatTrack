@@ -55,7 +55,7 @@ public protocol ZeitSatTrackManagerDelegate : class {
 }
 
 open class ZeitSatTrackManager: NSObject, CLLocationManagerDelegate {
-    open static let sharedInstance = ZeitSatTrackManager()
+    public static let sharedInstance = ZeitSatTrackManager()
     
     open weak var delegate:               ZeitSatTrackManagerDelegate?
     
