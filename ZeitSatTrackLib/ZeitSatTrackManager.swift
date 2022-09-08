@@ -206,6 +206,9 @@ open class ZeitSatTrackManager: NSObject, CLLocationManagerDelegate {
     ///   - interval: the number of seconds used as an interval (stride)
     /// - Returns: a dictionary keys on the date/interval and the resulting GeoCoodinates per interval
     open func locationsForSatelliteNamed(_ name: String, from: Date? = nil, until: Date, interval: Int = 2 ) -> Dictionary<Date, GeoCoordinates>? {
+        
+        fatalError ("Not implemented")
+        
         var rv: Dictionary<Date, GeoCoordinates>?
         
         if self.alreadyExists(name: name) == true {
@@ -254,6 +257,9 @@ open class ZeitSatTrackManager: NSObject, CLLocationManagerDelegate {
     ///   - targetDate: the date for which these paramets should be calculated
     /// - Returns: A dictionary with the orbital data
     open func orbitalInfoForSatelliteNamed(_ name: String, targetDate: Date? = nil) -> Dictionary<String, String>? {
+        
+        fatalError ("Not implemented")
+        
         var rv = Dictionary<String,String>()
 //        if let satellite = self.satellites.filter({ sat in
 //            return sat.name == name
