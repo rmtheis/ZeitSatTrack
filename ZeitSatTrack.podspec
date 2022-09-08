@@ -19,7 +19,7 @@ and provdes a number of different mecahisms for getting satellite positioning da
 
   s.platform     = :ios, "10.0"
   # s.osx.deployment_target = "10.12"
-  s.source       = { :git => "https://github.com/dhmspector/ZeitSatTrack.git", :commit => "359bb3a048804b6be1feed92ad6833673121ddd6" }
+  s.source       = { :git => "https://github.com/rmtheis/ZeitSatTrack.git", :commit => "f21087c163dd3e0d75dbc07d73e595b40fa41c10" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
