@@ -23,7 +23,7 @@ extension String
         let start = self.index(self.startIndex, offsetBy: r.lowerBound)
         let end = self.index(self.startIndex, offsetBy: r.upperBound)
         
-        return self[start...end]
+        return String(self[start...end])
     }
 }
 
