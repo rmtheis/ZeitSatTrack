@@ -160,7 +160,7 @@ open class ZeitSatTrackManager: NSObject, CLLocationManagerDelegate {
     // MARK: Delegate Support
 
     /// fetch positions for delivery to delegates
-    func postionsForObservedSatellites() {
+    @objc func postionsForObservedSatellites() {
         var rv = Dictionary<String, GeoCoordinates>()
         
         self.observedSatellites.forEach { (name) in
