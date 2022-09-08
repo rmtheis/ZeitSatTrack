@@ -1,3 +1,11 @@
+# Notes for this branch
+
+## Cocoapods Usage
+
+    pod 'ZeitSatTrack', :git => 'https://github.com/rmtheis/ZeitSatTrack.git'
+
+---
+
 # ZeitSatTrack - A Swift Satellite Tracking Library
 
 ## Author David HM Spector (spector@zeitgeist.com)
